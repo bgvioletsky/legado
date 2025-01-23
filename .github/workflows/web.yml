@@ -1,14 +1,14 @@
 name: Build Web
 
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - '**/modules/web/**'
-  pull_request:
-    paths:
-      - '**/modules/web/**'
+  # push:
+  #   branches:
+  #     - master
+  #   paths:
+  #     - '**/modules/web/**'
+  # pull_request:
+  #   paths:
+  #     - '**/modules/web/**'
   workflow_dispatch:
 
 env:
